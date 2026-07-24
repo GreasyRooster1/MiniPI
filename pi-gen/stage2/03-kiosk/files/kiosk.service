@@ -1,6 +1,6 @@
 [Unit]
 Description=Cage kiosk
-After=seatd.service systemd-user-sessions.service
+After=seatd.service systemd-user-sessions.service plymouth-quit-wait.service
 Wants=seatd.service
 
 [Service]
