@@ -1,0 +1,3 @@
+disable_splash=1
+dtoverlay=vc4-kms-v3d
+hdmi_force_hotplug=1
